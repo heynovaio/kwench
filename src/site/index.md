@@ -12,8 +12,7 @@ layout: layouts/base.njk
         We're Expanding!
       </h1>
       <div class="description">
-        <p>KWENCH. Leading the third wave of the coworking evolution.</p>
-        <p>We design purpose-built communities for creative leaders, freelancers, entrepreneurs, artists, start-ups, businesses, and corporate nomads.</p>
+        <p>Leading the third wave of the coworking evolution, KWENCH is a purpose-built community for creative leaders, freelancers, entrepreneurs, artists, start-ups, businesses, and corporate nomads.</p>
       </div>
       <div class="form-container">
         <form>
@@ -137,6 +136,22 @@ layout: layouts/base.njk
           </p>
           <div class="testimonial-body" itemprop="description">
             <p>“Kwench is a place buzzing with ideas, filled with purpose-driven individuals who make me want to do better and thrive for larger-than-life, every day. We've all been looking for this."</p>
+          </div>
+        </div>
+      </blockquote>
+      <blockquote itemprop="review" itemscope="" itemtype="http://schema.org/Review" class="testimonial">
+        <div class="img-container">
+          <img alt="testimonial" src="/images/annabel-testimonial.jpg" />
+        </div>
+        <div class="copy-container">
+          <p class="testimonial-author">
+            <cite>
+              <span class="testimonial-client" itemprop="author" style="">Annabel Young </span>
+              <span class="testimonial-other" style="" itemprop="itemReviewed">CMO, AE</span>
+            </cite>
+          </p>
+          <div class="testimonial-body" itemprop="description">
+            <p>"Being a co-founder of several businesses I know the cost, time, and effort it takes to set up a well-run office. At KWENCH I don't have to worry about a thing! I couldn't be happier with our KWENCH family!"</p>
           </div>
         </div>
       </blockquote>
