@@ -10,7 +10,6 @@ gulp.task('scripts', function(done) {
   pump([
       gulp.src(project.buildSrc + "/js/**/*.js"),
       concat('script-out.js'),
-      uglify(),
       gulp.dest(project.buildDest + '/js')
     ],
     done()

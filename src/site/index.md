@@ -72,7 +72,29 @@ layout: layouts/base.njk
           <span>Front Desk Concierge</span>
         </li>
       </ul>
-      <a href="#" class="btn view-more">View More Features</a>
+      <a href="#" class="btn" id="view-more">View More Features</a>
+      <div class="view-content">
+      	<ul>
+      		<li>
+						Flexible Workspace</li>
+						<li>Dedicated Desks</li>
+						<li>Fully Furnished Turn-Key Offices</li>
+						<li>Private Phone Booths</li>
+						<li>Boardrooms</li>
+						<li>Fitness Classes</li>
+						<li>Fiber Internet</li>
+						<li>Coffee, Tea, and Hops</li>
+						<li>Mailing Service</li>
+						<li>Pop-up Shop</li>
+						<li>Workshops & Classes</li>
+						<li>Wellness Service Providers</li>
+						<li>Event Space</li>
+						<li>Podcast/Webcast Studio</li>
+						<li>24/7 Access</li>
+						<li>Club Managers</li>
+						</li>
+      	</ul>
+      </div>
     </div>
   </div>
 </section>
