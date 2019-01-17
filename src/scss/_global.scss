@@ -1,0 +1,58 @@
+
+@font-face {
+  font-family: 'FS Siena';
+  src: url('/fonts/FSSienaWeb-SemiBold.eot') format('eot'),
+       url('/fonts/FSSienaWeb-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FS Siena';
+  src: url('/fonts/FSSienaWeb-Thin.eot') format('eot'),
+       url('/fonts/FSSienaWeb-Thin.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
+// Typography
+
+.wrapper {
+  max-width: $pageWidth;
+  margin: 0 auto;
+  padding: $mobilePadding;
+  @media (min-width: $sm) {
+    padding: $sitePadding;
+  }
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+
+::-moz-selection {
+  background-color: $accent-color;
+  color: $page-color;
+}
+::selection {
+  background-color: $accent-color;
+  color: $page-color;
+}
+
+body {
+  font-family: $body-font, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  @include bp(mid) {
+    font-size: 18px;
+  }
+}
+

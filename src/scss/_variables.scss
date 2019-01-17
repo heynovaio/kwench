@@ -3,7 +3,34 @@ $bp-narrow: "(min-width: 400px)";
 $bp-mid: "(min-width: 740px)";
 $bp-wide: "(min-width: 1200px)";
 
-// Colours
+$xxs: 377px;
+$xs:  480px;
+$sm:  768px;
+$md:  992px;
+$lrg: 1200px;
+
+// type
+$body-font: Slate Pro, sans-serif;
+$heading-font: FS Siena, serif;
+
+// Color Variables
+
 $page-color: #067ada;
 $text-color: #fff;
-$accent-color: #222;
+$accent-color: #ffe650;
+
+$brandGreen: #225151;
+$brandPink: #fdd7c6;
+$brandGrey: #E6E7E8;
+$brandDarkGrey: #2A2C2C;
+$brandCTA: #ffe650;
+
+/* Generic variables */
+
+$sitePadding: 40px 34px;
+$mobilePadding: 20px;
+$pageWidth: 1380px;
+$pageWidthNarrow: 700px;
+$galleryHeight: 600px;
+
+
