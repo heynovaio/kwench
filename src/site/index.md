@@ -128,7 +128,7 @@ layout: layouts/base.njk
       <p>We are transforming a Rattenbury-designed heritage building into our brand new, custom-built coworking/club hub. Located at the edge of Victoria’s Old Town and Design District, this culture-rich area boasts some of the city’s hottest cafes, pubs, galleries, markets, restaurants, and nightlife.</p>
       <p class="address"></p>
     </div>
-    <div id="map"><iframe src="https://snazzymaps.com/embed/123112" width="100%" height="100%" style="border:none;"></iframe></div>
+    <div id="map"><iframe src="https://snazzymaps.com/embed/123112" width="100%" height="100%" style="border:none;"></iframe></iframe></div>
   </div>
 </section>
 <section class="contact" id="contact">

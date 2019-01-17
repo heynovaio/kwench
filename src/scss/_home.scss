@@ -336,6 +336,7 @@ section.images {
   background-position: right bottom;
   background-repeat: no-repeat;
   position: relative;
+  overflow-x: hidden;
   &:before {
     background: url(../images/shape-1b.png) no-repeat;
     width: 437px;
@@ -479,6 +480,7 @@ blockquote {
     text-align: right;
     color: #ffffff;
     line-height: 1.2;
+    margin-bottom: 20px;
   }
   .address {
     font-family: $heading-font;
@@ -543,6 +545,9 @@ blockquote {
       font-size: 22px;
       letter-spacing: 1.7px;
       color: #2a2c2c;
+      &:hover {
+        color: $accent-color;
+      }
     }
     .or {
       font-family: $body-font;
