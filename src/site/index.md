@@ -67,7 +67,7 @@ layout: layouts/base.njk
           <span>Private Offices</span>
         </li>
         <li>
-          <i class="far fa-smile-beam"></i>
+          <i class="fas fa-concierge-bell"></i>
           <span>Front Desk Concierge</span>
         </li>
       </ul>
