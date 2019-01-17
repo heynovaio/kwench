@@ -36,7 +36,7 @@ p {
   padding: 24px 40px 25px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Slate Pro;
+  font-family: $body-font;
   transition: all .30s;
   // box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0);
   &:hover {
@@ -111,7 +111,9 @@ header {
     -moz-osx-font-smoothing: grayscale;
   }
   .sub-line {
-    font-family: Slate Pro;
+    font-family: $body-font;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
     font-size: 40px;
     font-weight: 500;
     letter-spacing: 3.7px;
@@ -132,7 +134,9 @@ header {
   }
   .description {
     text-shadow: 0 2px 18px rgba(0, 0, 0, 0.5);
-    font-family: Slate Pro;
+    font-family: $body-font;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     line-height: 1.5;
     letter-spacing: -0.2px;
     color: #ffffff;
@@ -172,7 +176,9 @@ header {
       position: absolute;
       left: 18px;
       top: 6px;
-      font-family: Slate Pro;
+      font-family: $body-font;
+      -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
       font-size: 18px;
       font-weight: 500;
       letter-spacing: 0.8px;
@@ -245,7 +251,9 @@ header {
     }
     // justify-content: space-around;
     p {
-      font-family: Slate Pro;
+      font-family: $body-font;
+      -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
       font-size: 20px;
       font-weight: 300;
       line-height: 1.5;
@@ -342,6 +350,7 @@ section.images {
     text-align: center;
     color: $brandDarkGrey;
     position: relative;
+    margin-bottom: 30px;
   }
   .quote-container {
     padding: 20px 0 60px;
@@ -359,7 +368,7 @@ blockquote {
     flex: 422px 1;
   }
   img {
-    max-width: 100%;
+    max-width: 400px;
     box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.21);
   }
   .testimonial-author {
@@ -372,24 +381,30 @@ blockquote {
     }
   }
   .testimonial-client {
-    font-family: Slate Pro;
-    font-size: 46px;
-    font-weight: 500;
+    font-family: $heading-font;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    font-size: 48px;
+    font-weight: 600;
     color: #225151;
     font-style: normal;
     display: block;
   }
   .testimonial-other {
-    font-size: 40px;
-    font-weight: 200;
-    font-family: Slate Pro;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: $body-font;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
     color: #225151;
     font-style: normal;
     display: block;
   }
   .testimonial-body {
     font-weight: 300;
-    font-family: Slate Pro;
+    font-family: $body-font;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
     font-size: 24px;
     line-height: 1.75;
     color: #225151;
@@ -449,7 +464,7 @@ blockquote {
       top: 15px;
     }
     p {
-      font-family: Slate Pro;
+      font-family: $body-font;
       font-size: 20px;
       font-weight: 300;
       line-height: 1.78;
@@ -497,7 +512,7 @@ blockquote {
   h2 {
     font-family: $heading-font;
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.19;
     color: #2a2c2c;
     margin: 0 0 10px 0;
@@ -516,7 +531,7 @@ blockquote {
       padding: 20px 40px 50px 0;
     }
     h3 {
-      font-family: Slate Pro;
+      font-family: $body-font;
       font-size: 22px;
       font-weight: 500;
       color: #2a2c2c;
@@ -524,13 +539,13 @@ blockquote {
       margin: 10px 12px 12px 0;
     }
     a {
-      font-family: Slate Pro;
+      font-family: $body-font;
       font-size: 22px;
       letter-spacing: 1.7px;
       color: #2a2c2c;
     }
     .or {
-      font-family: Slate Pro;
+      font-family: $body-font;
       font-size: 24px;
       font-weight: 300;
       color: #2a2c2c;
@@ -539,7 +554,7 @@ blockquote {
       margin-bottom: 18px;
     }
     label {
-      font-family: Slate Pro;
+      font-family: $body-font;
       font-size: 18px;
       font-weight: 500;
       letter-spacing: 0.8px;
@@ -559,6 +574,9 @@ blockquote {
     }
     .btn {
       margin-top: 6px;
+      border: none;
+      -webkit-appearance: none;
+      outline: none;
     }
   }
 }
