@@ -40,5 +40,8 @@
         "^/\\.netlify/functions": ""
       }
     }
+  },
+  "devDependencies": {
+    "gulp-replace": "^1.0.0"
   }
 }

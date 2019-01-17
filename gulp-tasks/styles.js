@@ -13,3 +13,11 @@ gulp.task('styles', function() {
     }).on('error', sass.logError))
     .pipe(gulp.dest(project.buildDest+ '/css'));
 });
+
+gulp.task('fonts', function() {
+  return gulp.src(project.buildSrc + '/fonts/*')
+    .pipe(gulp.dest(project.buildDest+ '/fonts'));
+});
+
+
+ // .pipe(replace('../fonts', 'assets/fonts'))
